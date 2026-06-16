@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { X, Instagram, Mail, ExternalLink, ChevronDown, Send, ShoppingBag, Archive, User, Sun, Moon, Menu } from "lucide-react";
-import { client, urlFor } from "./sanityClient";
+import { client, urlFor } from "./sanityClient.jsx";
 
 // ─── THEME ────────────────────────────────────────────────────────────────────
 const T = {
